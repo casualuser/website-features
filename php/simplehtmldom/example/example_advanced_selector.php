@@ -29,8 +29,8 @@ $str = <<<HTML
 HTML;
 
 $html = str_get_html($str);
-foreach($html->find('ul') as $ul) {
-    foreach($ul->find('li') as $li)
+foreach ($html->find('ul') as $ul) {
+    foreach ($ul->find('li') as $li)
         echo $li->innertext . '<br>';
 }
 
@@ -45,7 +45,7 @@ $str = <<<HTML
 HTML;
 
 $html = str_get_html($str);
-foreach($html->find('input[type=checkbox]') as $checkbox) {
+foreach ($html->find('input[type=checkbox]') as $checkbox) {
     if ($checkbox->checked)
         echo $checkbox->name . ' is checked<br>';
     else

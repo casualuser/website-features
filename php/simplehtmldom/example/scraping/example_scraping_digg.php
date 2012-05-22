@@ -1,12 +1,13 @@
 <?php
 include_once('../../simple_html_dom.php');
 
-function scraping_digg() {
+function scraping_digg()
+{
     // create HTML DOM
     $html = file_get_html('http://digg.com/');
 
     // get news block
-    foreach($html->find('div.news-summary') as $article) {
+    foreach ($html->find('div.news-summary') as $article) {
         // get title
         $item['title'] = trim($article->find('h3', 0)->plaintext);
         // get details
@@ -16,7 +17,7 @@ function scraping_digg() {
 
         $ret[] = $item;
     }
-    
+
     // clean up memory
     $html->clear();
     unset($html);
@@ -33,11 +34,11 @@ ini_set('user_agent', 'My-Application/2.5');
 
 $ret = scraping_digg();
 
-foreach($ret as $v) {
-    echo $v['title'].'<br>';
+foreach ($ret as $v) {
+    echo $v['title'] . '<br>';
     echo '<ul>';
-    echo '<li>'.$v['details'].'</li>';
-    echo '<li>Diggs: '.$v['diggs'].'</li>';
+    echo '<li>' . $v['details'] . '</li>';
+    echo '<li>Diggs: ' . $v['diggs'] . '</li>';
     echo '</ul>';
 }
 

@@ -3,14 +3,15 @@ include_once('../simple_html_dom.php');
 
 
 // 1. Write a function with parameter "$element"
-function my_callback($element) {
-    if ($element->tag=='input')
+function my_callback($element)
+{
+    if ($element->tag == 'input')
         $element->outertext = 'input';
 
-    if ($element->tag=='img')
+    if ($element->tag == 'img')
         $element->outertext = 'img';
 
-    if ($element->tag=='a')
+    if ($element->tag == 'a')
         $element->outertext = 'a';
 }
 

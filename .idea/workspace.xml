@@ -2,152 +2,199 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28cf9267-fdc9-48d7-a36b-5c90e3ecd7e9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/engine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/website_features.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/js/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LICENSE.txt" afterPath="$PROJECT_DIR$/js/LICENSE.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps.js" afterPath="$PROJECT_DIR$/js/apps.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/1c-bitrix.ico" afterPath="$PROJECT_DIR$/js/apps/1c-bitrix.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/AdSense.gif" afterPath="$PROJECT_DIR$/js/apps/AdSense.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/Alfresco.png" afterPath="$PROJECT_DIR$/js/apps/Alfresco.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/Amiro.CMS.ico" afterPath="$PROJECT_DIR$/js/apps/Amiro.CMS.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/BIGACE.ico" afterPath="$PROJECT_DIR$/js/apps/BIGACE.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/Backbone.png" afterPath="$PROJECT_DIR$/js/apps/Backbone.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/Blogger.ico" afterPath="$PROJECT_DIR$/js/apps/Blogger.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/CMSMadeSimple.ico" afterPath="$PROJECT_DIR$/js/apps/CMSMadeSimple.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/ClanSphere.png" afterPath="$PROJECT_DIR$/js/apps/ClanSphere.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/Closure.png" afterPath="$PROJECT_DIR$/js/apps/Closure.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/Disqus.ico" afterPath="$PROJECT_DIR$/js/apps/Disqus.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/DokuWiki.ico" afterPath="$PROJECT_DIR$/js/apps/DokuWiki.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/DotNetNuke.ico" afterPath="$PROJECT_DIR$/js/apps/DotNetNuke.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/Drupal.ico" afterPath="$PROJECT_DIR$/js/apps/Drupal.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/Elgg.ico" afterPath="$PROJECT_DIR$/js/apps/Elgg.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/ExtJS.ico" afterPath="$PROJECT_DIR$/js/apps/ExtJS.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/Fatwire.ico" afterPath="$PROJECT_DIR$/js/apps/Fatwire.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/Gallery2.ico" afterPath="$PROJECT_DIR$/js/apps/Gallery2.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/GetSatisfaction.gif" afterPath="$PROJECT_DIR$/js/apps/GetSatisfaction.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/Google_Analytics.ico" afterPath="$PROJECT_DIR$/js/apps/Google_Analytics.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/IPB.ico" afterPath="$PROJECT_DIR$/js/apps/IPB.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/JaliosJCMS.ico" afterPath="$PROJECT_DIR$/js/apps/JaliosJCMS.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/Joomla.ico" afterPath="$PROJECT_DIR$/js/apps/Joomla.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/Koobi.ico" afterPath="$PROJECT_DIR$/js/apps/Koobi.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/LifeRay.ico" afterPath="$PROJECT_DIR$/js/apps/LifeRay.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/MODx.ico" afterPath="$PROJECT_DIR$/js/apps/MODx.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/Magento.ico" afterPath="$PROJECT_DIR$/js/apps/Magento.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/MediaWiki.ico" afterPath="$PROJECT_DIR$/js/apps/MediaWiki.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/MooTools.ico" afterPath="$PROJECT_DIR$/js/apps/MooTools.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/MovableType.ico" afterPath="$PROJECT_DIR$/js/apps/MovableType.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/OpenX.ico" afterPath="$PROJECT_DIR$/js/apps/OpenX.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/PHP-Fusion.ico" afterPath="$PROJECT_DIR$/js/apps/PHP-Fusion.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/PHP-Nuke.ico" afterPath="$PROJECT_DIR$/js/apps/PHP-Nuke.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/Piwik.ico" afterPath="$PROJECT_DIR$/js/apps/Piwik.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/Plone.ico" afterPath="$PROJECT_DIR$/js/apps/Plone.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/PrestaShop.ico" afterPath="$PROJECT_DIR$/js/apps/PrestaShop.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/Prototype.ico" afterPath="$PROJECT_DIR$/js/apps/Prototype.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/Quantcast.ico" afterPath="$PROJECT_DIR$/js/apps/Quantcast.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/SMF.ico" afterPath="$PROJECT_DIR$/js/apps/SMF.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/SWFObject.ico" afterPath="$PROJECT_DIR$/js/apps/SWFObject.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/Serendipity.png" afterPath="$PROJECT_DIR$/js/apps/Serendipity.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/SharePoint.png" afterPath="$PROJECT_DIR$/js/apps/SharePoint.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/SilverStripe.png" afterPath="$PROJECT_DIR$/js/apps/SilverStripe.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/SiteCatalyst.ico" afterPath="$PROJECT_DIR$/js/apps/SiteCatalyst.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/Sitefinity.ico" afterPath="$PROJECT_DIR$/js/apps/Sitefinity.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/TYPO3.ico" afterPath="$PROJECT_DIR$/js/apps/TYPO3.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/Tumblr.ico" afterPath="$PROJECT_DIR$/js/apps/Tumblr.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/TypePad.ico" afterPath="$PROJECT_DIR$/js/apps/TypePad.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/Ubercart.ico" afterPath="$PROJECT_DIR$/js/apps/Ubercart.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/Underscore.png" afterPath="$PROJECT_DIR$/js/apps/Underscore.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/WPML.ico" afterPath="$PROJECT_DIR$/js/apps/WPML.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/WebGUI.ico" afterPath="$PROJECT_DIR$/js/apps/WebGUI.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/Wibiya.ico" afterPath="$PROJECT_DIR$/js/apps/Wibiya.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/WordPress.ico" afterPath="$PROJECT_DIR$/js/apps/WordPress.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/XOOPS.ico" afterPath="$PROJECT_DIR$/js/apps/XOOPS.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/YUI.ico" afterPath="$PROJECT_DIR$/js/apps/YUI.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/ZenPhoto.ico" afterPath="$PROJECT_DIR$/js/apps/ZenPhoto.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/addthis.ico" afterPath="$PROJECT_DIR$/js/apps/addthis.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/alphacms.ico" afterPath="$PROJECT_DIR$/js/apps/alphacms.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/avactis.ico" afterPath="$PROJECT_DIR$/js/apps/avactis.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bbPress.ico" afterPath="$PROJECT_DIR$/js/apps/bbPress.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/bootstrap.ico" afterPath="$PROJECT_DIR$/js/apps/bootstrap.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/buysellads.ico" afterPath="$PROJECT_DIR$/js/apps/buysellads.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/buzz.png" afterPath="$PROJECT_DIR$/js/apps/buzz.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cappuccino.png" afterPath="$PROJECT_DIR$/js/apps/cappuccino.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/chitika.ico" afterPath="$PROJECT_DIR$/js/apps/chitika.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/clicky.ico" afterPath="$PROJECT_DIR$/js/apps/clicky.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/concrete5.gif" afterPath="$PROJECT_DIR$/js/apps/concrete5.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/contao.ico" afterPath="$PROJECT_DIR$/js/apps/contao.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/coremetrics.ico" afterPath="$PROJECT_DIR$/js/apps/coremetrics.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cufon.ico" afterPath="$PROJECT_DIR$/js/apps/cufon.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/datalife.ico" afterPath="$PROJECT_DIR$/js/apps/datalife.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/dojo.ico" afterPath="$PROJECT_DIR$/js/apps/dojo.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/eZ.ico" afterPath="$PROJECT_DIR$/js/apps/eZ.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/eraincart.ico" afterPath="$PROJECT_DIR$/js/apps/eraincart.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/facebook.ico" afterPath="$PROJECT_DIR$/js/apps/facebook.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/getsimple.png" afterPath="$PROJECT_DIR$/js/apps/getsimple.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/gmap.png" afterPath="$PROJECT_DIR$/js/apps/gmap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/google-font-api.gif" afterPath="$PROJECT_DIR$/js/apps/google-font-api.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/google.ico" afterPath="$PROJECT_DIR$/js/apps/google.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/headjs.gif" afterPath="$PROJECT_DIR$/js/apps/headjs.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/humanstxt.ico" afterPath="$PROJECT_DIR$/js/apps/humanstxt.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/jQuery.ico" afterPath="$PROJECT_DIR$/js/apps/jQuery.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/jQuery_UI.ico" afterPath="$PROJECT_DIR$/js/apps/jQuery_UI.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/jigsy.ico" afterPath="$PROJECT_DIR$/js/apps/jigsy.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/jimdo.ico" afterPath="$PROJECT_DIR$/js/apps/jimdo.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/miniBB.ico" afterPath="$PROJECT_DIR$/js/apps/miniBB.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/modernizr.ico" afterPath="$PROJECT_DIR$/js/apps/modernizr.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/mojomotor.ico" afterPath="$PROJECT_DIR$/js/apps/mojomotor.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/mollom.ico" afterPath="$PROJECT_DIR$/js/apps/mollom.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/moodle.png" afterPath="$PROJECT_DIR$/js/apps/moodle.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/mybb.ico" afterPath="$PROJECT_DIR$/js/apps/mybb.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/openacs.ico" afterPath="$PROJECT_DIR$/js/apps/openacs.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/opencart.png" afterPath="$PROJECT_DIR$/js/apps/opencart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/opencms.ico" afterPath="$PROJECT_DIR$/js/apps/opencms.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/osCommerce.ico" afterPath="$PROJECT_DIR$/js/apps/osCommerce.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/owa.ico" afterPath="$PROJECT_DIR$/js/apps/owa.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/perch.ico" afterPath="$PROJECT_DIR$/js/apps/perch.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/phpBB.ico" afterPath="$PROJECT_DIR$/js/apps/phpBB.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/pivotx.ico" afterPath="$PROJECT_DIR$/js/apps/pivotx.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/plus1.png" afterPath="$PROJECT_DIR$/js/apps/plus1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/prostores.ico" afterPath="$PROJECT_DIR$/js/apps/prostores.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/raphael.ico" afterPath="$PROJECT_DIR$/js/apps/raphael.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/reCaptcha.ico" afterPath="$PROJECT_DIR$/js/apps/reCaptcha.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/rightjs.png" afterPath="$PROJECT_DIR$/js/apps/rightjs.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/script.aculo.us.ico" afterPath="$PROJECT_DIR$/js/apps/script.aculo.us.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/shibboleth.png" afterPath="$PROJECT_DIR$/js/apps/shibboleth.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/sifr.gif" afterPath="$PROJECT_DIR$/js/apps/sifr.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/spine.ico" afterPath="$PROJECT_DIR$/js/apps/spine.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/sugarcrm.ico" afterPath="$PROJECT_DIR$/js/apps/sugarcrm.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/tomatocms.ico" afterPath="$PROJECT_DIR$/js/apps/tomatocms.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/twitter.ico" afterPath="$PROJECT_DIR$/js/apps/twitter.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/typekit.ico" afterPath="$PROJECT_DIR$/js/apps/typekit.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/unknown.jpg" afterPath="$PROJECT_DIR$/js/apps/unknown.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/vBulletin.ico" afterPath="$PROJECT_DIR$/js/apps/vBulletin.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/volusion.ico" afterPath="$PROJECT_DIR$/js/apps/volusion.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/webnode.ico" afterPath="$PROJECT_DIR$/js/apps/webnode.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/webs.ico" afterPath="$PROJECT_DIR$/js/apps/webs.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/weebly.ico" afterPath="$PROJECT_DIR$/js/apps/weebly.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/woopra.ico" afterPath="$PROJECT_DIR$/js/apps/woopra.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/xenforo.ico" afterPath="$PROJECT_DIR$/js/apps/xenforo.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/xiti.ico" afterPath="$PROJECT_DIR$/js/apps/xiti.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/yola.ico" afterPath="$PROJECT_DIR$/js/apps/yola.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/zencart.ico" afterPath="$PROJECT_DIR$/js/apps/zencart.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/background.html" afterPath="$PROJECT_DIR$/js/background.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/common.js" afterPath="$PROJECT_DIR$/js/common.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/detector.js" afterPath="$PROJECT_DIR$/js/detector.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/engine.js" afterPath="$PROJECT_DIR$/js/engine.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/icon.pdn" afterPath="$PROJECT_DIR$/js/icon.pdn" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/icon.png" afterPath="$PROJECT_DIR$/js/icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/icon128.png" afterPath="$PROJECT_DIR$/js/icon128.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/icon32.png" afterPath="$PROJECT_DIR$/js/icon32.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/icon48.png" afterPath="$PROJECT_DIR$/js/icon48.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/manifest.json" afterPath="$PROJECT_DIR$/js/manifest.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/popup.html" afterPath="$PROJECT_DIR$/js/popup.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/screenshot/large-screenshot1.png" afterPath="$PROJECT_DIR$/js/screenshot/large-screenshot1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/screenshot/shot1.png" afterPath="$PROJECT_DIR$/js/screenshot/shot1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/screenshot/shot2.png" afterPath="$PROJECT_DIR$/js/screenshot/shot2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/screenshot/shot3.png" afterPath="$PROJECT_DIR$/js/screenshot/shot3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/screenshot/small-tile.png" afterPath="$PROJECT_DIR$/js/screenshot/small-tile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/features.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/massurls.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/1c-bitrix.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/AdSense.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/Alfresco.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/Amiro.CMS.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/BIGACE.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/Backbone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/Blogger.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/CMSMadeSimple.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/ClanSphere.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/Closure.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/Disqus.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/DokuWiki.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/DotNetNuke.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/Drupal.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/Elgg.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/ExtJS.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/Fatwire.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/Gallery2.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/GetSatisfaction.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/Google_Analytics.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/IPB.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/JaliosJCMS.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/Joomla.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/Koobi.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/LifeRay.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/MODx.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/Magento.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/MediaWiki.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/MooTools.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/MovableType.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/OpenX.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/PHP-Fusion.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/PHP-Nuke.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/Piwik.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/Plone.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/PrestaShop.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/Prototype.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/Quantcast.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/SMF.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/SWFObject.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/Serendipity.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/SharePoint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/SilverStripe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/SiteCatalyst.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/Sitefinity.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/TYPO3.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/Tumblr.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/TypePad.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/Ubercart.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/Underscore.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/WPML.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/WebGUI.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/Wibiya.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/WordPress.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/XOOPS.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/YUI.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/ZenPhoto.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/addthis.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/alphacms.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/avactis.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/bbPress.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/bootstrap.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/buysellads.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/buzz.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/cappuccino.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/chitika.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/clicky.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/concrete5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/contao.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/coremetrics.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/cufon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/datalife.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/dojo.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/eZ.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/eraincart.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/facebook.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/getsimple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/gmap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/google-font-api.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/google.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/headjs.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/humanstxt.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/jQuery.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/jQuery_UI.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/jigsy.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/jimdo.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/miniBB.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/modernizr.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/mojomotor.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/mollom.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/moodle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/mybb.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/openacs.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/opencart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/opencms.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/osCommerce.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/owa.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/perch.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/phpBB.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/pivotx.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/plus1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/prostores.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/raphael.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/reCaptcha.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/rightjs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/script.aculo.us.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/shibboleth.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/sifr.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/spine.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/sugarcrm.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/tomatocms.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/twitter.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/typekit.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/unknown.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/vBulletin.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/volusion.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/webnode.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/webs.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/weebly.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/woopra.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/xenforo.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/xiti.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/yola.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/apps/zencart.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/background.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/detector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/engine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/icon.pdn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/icon128.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/icon32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/icon48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/popup.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/screenshot/large-screenshot1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/screenshot/shot1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/screenshot/shot2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/screenshot/shot3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/screenshot/small-tile.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/engine.php" afterPath="$PROJECT_DIR$/php/engine.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/nokogiri.php" afterPath="$PROJECT_DIR$/php/nokogiri.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/app/google.htm" afterPath="$PROJECT_DIR$/php/simplehtmldom/app/google.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/app/index.php" afterPath="$PROJECT_DIR$/php/simplehtmldom/app/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/app/js/jquery.js" afterPath="$PROJECT_DIR$/php/simplehtmldom/app/js/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/app/js/jquery.treeview.css" afterPath="$PROJECT_DIR$/php/simplehtmldom/app/js/jquery.treeview.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/app/js/jquery.treeview.js" afterPath="$PROJECT_DIR$/php/simplehtmldom/app/js/jquery.treeview.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/app/js/screen.css" afterPath="$PROJECT_DIR$/php/simplehtmldom/app/js/screen.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/example/example_advanced_selector.php" afterPath="$PROJECT_DIR$/php/simplehtmldom/example/example_advanced_selector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/example/example_basic_selector.php" afterPath="$PROJECT_DIR$/php/simplehtmldom/example/example_basic_selector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/example/example_callback.php" afterPath="$PROJECT_DIR$/php/simplehtmldom/example/example_callback.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/example/example_modify_contents.php" afterPath="$PROJECT_DIR$/php/simplehtmldom/example/example_modify_contents.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/example/scraping/example_scraping_digg.php" afterPath="$PROJECT_DIR$/php/simplehtmldom/example/scraping/example_scraping_digg.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/example/scraping/example_scraping_imdb.php" afterPath="$PROJECT_DIR$/php/simplehtmldom/example/scraping/example_scraping_imdb.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/example/scraping/example_scraping_slashdot.php" afterPath="$PROJECT_DIR$/php/simplehtmldom/example/scraping/example_scraping_slashdot.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/example/simple_html_dom_utility.php" afterPath="$PROJECT_DIR$/php/simplehtmldom/example/simple_html_dom_utility.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/manual/css/default.css" afterPath="$PROJECT_DIR$/php/simplehtmldom/manual/css/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/manual/css/ui.tabs.css" afterPath="$PROJECT_DIR$/php/simplehtmldom/manual/css/ui.tabs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/manual/js/jquery-1.2.3.pack.js" afterPath="$PROJECT_DIR$/php/simplehtmldom/manual/js/jquery-1.2.3.pack.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/manual/js/ui.tabs.pack.js" afterPath="$PROJECT_DIR$/php/simplehtmldom/manual/js/ui.tabs.pack.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/manual/manual.htm" afterPath="$PROJECT_DIR$/php/simplehtmldom/manual/manual.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/manual/manual_api.htm" afterPath="$PROJECT_DIR$/php/simplehtmldom/manual/manual_api.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/manual/manual_faq.htm" afterPath="$PROJECT_DIR$/php/simplehtmldom/manual/manual_faq.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/simple_html_dom.php" afterPath="$PROJECT_DIR$/php/simplehtmldom/simple_html_dom.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/testcase/all_test.php" afterPath="$PROJECT_DIR$/php/simplehtmldom/testcase/all_test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/testcase/callback_testcase.php" afterPath="$PROJECT_DIR$/php/simplehtmldom/testcase/callback_testcase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/testcase/dom_testcase.php" afterPath="$PROJECT_DIR$/php/simplehtmldom/testcase/dom_testcase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/testcase/element_testcase.php" afterPath="$PROJECT_DIR$/php/simplehtmldom/testcase/element_testcase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/testcase/invalid_testcase.php" afterPath="$PROJECT_DIR$/php/simplehtmldom/testcase/invalid_testcase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/testcase/jquery-1.2.3.pack.js" afterPath="$PROJECT_DIR$/php/simplehtmldom/testcase/jquery-1.2.3.pack.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/testcase/mass_test.php" afterPath="$PROJECT_DIR$/php/simplehtmldom/testcase/mass_test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/testcase/memory_test.php" afterPath="$PROJECT_DIR$/php/simplehtmldom/testcase/memory_test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/testcase/misc_testcase.php" afterPath="$PROJECT_DIR$/php/simplehtmldom/testcase/misc_testcase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/testcase/performance_test.php" afterPath="$PROJECT_DIR$/php/simplehtmldom/testcase/performance_test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/testcase/reader/all_test.php" afterPath="$PROJECT_DIR$/php/simplehtmldom/testcase/reader/all_test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/testcase/reader/element_testcase.php" afterPath="$PROJECT_DIR$/php/simplehtmldom/testcase/reader/element_testcase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/testcase/reader/memory_test.php" afterPath="$PROJECT_DIR$/php/simplehtmldom/testcase/reader/memory_test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/testcase/reader/performance_test.php" afterPath="$PROJECT_DIR$/php/simplehtmldom/testcase/reader/performance_test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/testcase/reader/selector_testcase.php" afterPath="$PROJECT_DIR$/php/simplehtmldom/testcase/reader/selector_testcase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/testcase/selector_testcase.php" afterPath="$PROJECT_DIR$/php/simplehtmldom/testcase/selector_testcase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/testcase/slick_test.php" afterPath="$PROJECT_DIR$/php/simplehtmldom/testcase/slick_test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/testcase/slickspeed.htm" afterPath="$PROJECT_DIR$/php/simplehtmldom/testcase/slickspeed.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/testcase/std_testcase.php" afterPath="$PROJECT_DIR$/php/simplehtmldom/testcase/std_testcase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/simplehtmldom/testcase/strip_testcase.php" afterPath="$PROJECT_DIR$/php/simplehtmldom/testcase/strip_testcase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/website_features.php" afterPath="$PROJECT_DIR$/php/website_features.php" />
     </list>
     <ignored path="features.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -173,37 +220,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="13" selection-start="831" selection-end="831" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="popup.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/popup.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="35" selection-start="1200" selection-end="1200" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="detector.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/detector.js">
+        <entry file="file://$PROJECT_DIR$/js/chromesniffer/detector.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="9" selection-start="2299" selection-end="2305" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="website_features.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/website_features.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="9" selection-start="348" selection-end="357" vertical-scroll-proportion="0.0">
+            <state line="58" column="20" selection-start="1573" selection-end="1584" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -212,11 +232,29 @@
       <file leaf-file-name="engine.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/engine.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="45" selection-start="2756" selection-end="2756" vertical-scroll-proportion="0.95594716">
+            <state line="74" column="0" selection-start="1961" selection-end="1961" vertical-scroll-proportion="0.9030837">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="massurls.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/massurls.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="180" selection-end="180" vertical-scroll-proportion="-6.25">
               <folding>
-                <element signature="e#268#1103#0" expanded="false" />
-                <element signature="e#1250#1649#0" expanded="false" />
-                <element signature="e#7553#11943#0" expanded="false" />
+                <element signature="e#6#163#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="features.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/features.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="110" column="0" selection-start="4501" selection-end="4501" vertical-scroll-proportion="-33.67347">
+              <folding>
+                <element signature="e#6#163#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -237,14 +275,16 @@
       <list>
         <option value="$PROJECT_DIR$/php/website_features.php" />
         <option value="$PROJECT_DIR$/js/detector.js" />
+        <option value="$PROJECT_DIR$/php/features.php" />
         <option value="$PROJECT_DIR$/php/engine.php" />
+        <option value="$PROJECT_DIR$/php/massurls.php" />
       </list>
     </option>
   </component>
   <component name="PhpDebugGeneral" xdebug_debug_port="9001" />
   <component name="PhpServers">
     <option name="servers">
-      <server name="localhost" />
+      <server host="localhost" name="localhost" />
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="php" />
@@ -254,7 +294,7 @@
     <option name="width" value="1555" />
     <option name="height" value="879" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -280,16 +320,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -324,15 +354,25 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.webide.settings.project.settings.php.debug" />
     <property name="recentsLimit" value="5" />
-    <property name="options.searchVisible" value="true" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Confirmation" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -351,16 +391,7 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
-      <method>
-        <option name="FtpUpload" enabled="false">
-          <server_id />
-          <server_name />
-        </option>
-        <option name="PhingTarget" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="localhost">
       <method>
         <option name="FtpUpload" enabled="false">
           <server_id />
@@ -371,6 +402,15 @@
     </configuration>
     <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
       <method>
+        <option name="PhingTarget" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
+      <method>
+        <option name="FtpUpload" enabled="false">
+          <server_id />
+          <server_name />
+        </option>
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
@@ -404,13 +444,6 @@
       </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method>
         <option name="FtpUpload" enabled="false">
@@ -420,6 +453,13 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
       <option name="VM_PARAMETERS" value="" />
       <option name="USER_CFG_CLASS" />
@@ -428,13 +468,19 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
-    <configuration default="false" name="engine.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/php/engine.php" scriptParameters="--url webnode.com">
+    <configuration default="false" name="engine.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/php/engine.php" scriptParameters="--url www.joomla.org">
+      <RunnerSettings RunnerId="PhpRunner" />
       <RunnerSettings RunnerId="PhpScriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="website.php" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="localhost">
+      <method />
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="PHP Script.engine.php" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Web Application.website.php" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -472,11 +518,11 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20902455" sideWeight="0.6005472" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994528" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21167883" sideWeight="0.5978112" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40218878" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -540,62 +586,57 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/php/engine.php</url>
+          <line>49</line>
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/background.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="17" selection-start="259" selection-end="259" vertical-scroll-proportion="-0.69603527" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/apps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="27" selection-start="200" selection-end="200" vertical-scroll-proportion="-13.319149" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="140" selection-end="140" vertical-scroll-proportion="0.19148937" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/engine.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/simplehtmldom/simple_html_dom.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="303" column="0" selection-start="9865" selection-end="9865" vertical-scroll-proportion="0.18712574" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="13" selection-start="831" selection-end="831" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/popup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="35" selection-start="1200" selection-end="1200" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/detector.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="9" selection-start="2299" selection-end="2305" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/website_features.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="9" selection-start="348" selection-end="357" vertical-scroll-proportion="0.0" />
+        <state line="14" column="0" selection-start="198" selection-end="198" vertical-scroll-proportion="0.30837005">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/chromesniffer/detector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="20" selection-start="1573" selection-end="1584" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/features.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="0" selection-start="4501" selection-end="4501" vertical-scroll-proportion="-33.67347">
+          <folding>
+            <element signature="e#6#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/massurls.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="180" selection-end="180" vertical-scroll-proportion="-6.25">
+          <folding>
+            <element signature="e#6#163#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/engine.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="45" selection-start="2756" selection-end="2756" vertical-scroll-proportion="0.95594716">
-          <folding>
-            <element signature="e#268#1103#0" expanded="false" />
-            <element signature="e#1250#1649#0" expanded="false" />
-            <element signature="e#7553#11943#0" expanded="false" />
-          </folding>
+        <state line="74" column="0" selection-start="1961" selection-end="1961" vertical-scroll-proportion="0.9030837">
+          <folding />
         </state>
       </provider>
     </entry>
