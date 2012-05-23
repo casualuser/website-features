@@ -10,7 +10,7 @@
 error_reporting(0);
 
 //include('simplehtmldom/simple_html_dom.php');
-include('nokogiri.php');
+include('./nokogiri/nokogiri.php');
 include('massurls.php');
 include('features.php');
 
@@ -34,15 +34,14 @@ $webPage = file_get_contents('http://' . "$webURL[url]") or die("\n" . 'this is 
 
 $webDOM = new nokogiri($webPage);
 
-$meta = $webDOM->get('meta');
+$meta = $webDOM->get('meta')->toArray();
 
 foreach ($meta as $value) {
 
     if (strtolower($value[name]) == 'copyright' || strtolower($value[name]) == 'generator' ||
-        strtolower($value[name]) == 'powered-by' || strtolower($value[name]) == 'author'
-    ) {
+        strtolower($value[name]) == 'powered-by' || strtolower($value[name]) == 'author') {
 
-//        var_dump($value);
+//       var_dump($value);
 
         $val = $value[content];
 
@@ -51,20 +50,20 @@ foreach ($meta as $value) {
             $trigger = preg_match($match, $val);
             if ($trigger) {
                 $webSite["$webURL[url]"][$feature] = 'true';
-            }
-            ;
-        }
-        ;
+            };
+        };
     } elseif (strtolower($value[name]) == 'elggrelease') {
 
         $webSite["$webURL[url]"][Elgg] = 'true';
 
-    }
-    ;
-
+    };
 }
 
-$script = $webDOM->get('script');
+$script = $webDOM->get('script')->toArray();
+
+//var_dump($script);
+
+//foreach ($script as $i) { var_dump($i["#cdata-section"]); }
 
 foreach ($script as $value) {
 
@@ -95,6 +94,16 @@ print_r($webSite["$webURL[url]"]);
 //    unset ($webPage);
 
 //}
+
+
+
+
+
+
+
+
+
+
 
 function get_data($url)
 {
