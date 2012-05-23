@@ -16,13 +16,13 @@ include('features.php');
 
 $stringArg[] = "url:";
 
-//$webURL = getopt('', $stringArg) or die("\n" . 'please provide website url like this: "--url google.com"' . "\n\n");
+$webURL = getopt('', $stringArg) or die("\n" . 'please provide website url like this: "--url google.com"' . "\n\n");
 
 //$webHARs = file_get_contents("http://browserhistory.beget.ru/2012/4/22/18_27_55_www.joomla.org.har");
 //$webHAR = json_decode($webHARs, true);
 //$webPage = $webHAR["log"]["entries"]["0"]["response"]["content"]["text"];
 
-foreach ($urls as $webURL[url]) {
+//foreach ($urls as $webURL[url]) {
 
 $webPage = file_get_contents('http://' . "$webURL[url]") or die("\n" . 'this is not a valid url!' . "\n\n");
 
@@ -41,6 +41,8 @@ foreach ($meta as $value) {
     if (strtolower($value[name]) == 'copyright' || strtolower($value[name]) == 'generator' ||
         strtolower($value[name]) == 'powered-by' || strtolower($value[name]) == 'author'
     ) {
+
+//        var_dump($value);
 
         $val = $value[content];
 
@@ -66,7 +68,7 @@ $script = $webDOM->get('script');
 
 foreach ($script as $value) {
 
-    if ($value[type] == 'text/javascript' && $value[src] != '') {
+    if (strtolower($value[type]) == 'text/javascript' && strtolower($value[src]) != '') {
 
         $val = $value[src];
 
@@ -87,13 +89,12 @@ print "\n" . $webCMS . " - " . $webURL[url] . "\n\n";
 print_r($webSite["$webURL[url]"]);
 //print_r($GLOBALS['http_response_header']);
 
-
 #var_dump($webHAR["log"]["entries"]["0"]["request"]["url"]);
 
 //$webPage->clear();
 //    unset ($webPage);
 
-}
+//}
 
 function get_data($url)
 {
