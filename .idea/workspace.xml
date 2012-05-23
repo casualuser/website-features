@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28cf9267-fdc9-48d7-a36b-5c90e3ecd7e9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/engine.php" afterPath="$PROJECT_DIR$/php/engine.php" />
     </list>
     <ignored path="features.iws" />
