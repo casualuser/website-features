@@ -59,17 +59,19 @@ foreach ($meta as $value) {
     };
 }
 
-$script = $webDOM->get('script')->toArray();
+$script = $webDOM->get('script')->toXml();
 
 //var_dump($script);
 
 //foreach ($script as $i) { var_dump($i["#cdata-section"]); }
 
-foreach ($script as $value) {
+//foreach ($script as $value) {
 
-    if (strtolower($value[type]) == 'text/javascript' && strtolower($value[src]) != '') {
+//    if (strtolower($value[type]) == 'text/javascript' && strtolower($value[src]) != '') {
 
-        $val = $value[src];
+//        $val = $value[src];
+
+        $val = $script;
 
         foreach ($features[script] as $feature => $match) {
 
@@ -79,9 +81,9 @@ foreach ($script as $value) {
             }
             ;
         }
-    }
+//   }
 
-}
+//}
 
 print "\n" . $webCMS . " - " . $webURL[url] . "\n\n";
 
