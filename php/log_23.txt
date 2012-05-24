@@ -1,0 +1,462 @@
+
+ - forums.mozillazine.org
+
+Array
+(
+    [phpBB] => true
+    [AdSense] => true
+)
+
+ - community.elgg.org
+
+Array
+(
+    [Elgg] => true
+    [Google Analytics] => true
+)
+
+ - blog.s9y.org
+
+Array
+(
+    [Serendipity] => true
+    [Google Analytics] => true
+    [AdSense] => true
+)
+
+ - demo.avactis.com
+
+Array
+(
+    [Avactis] => true
+)
+
+ - www.joomla.org
+
+Array
+(
+    [Joomla] => true
+    [Google Analytics] => true
+)
+
+ - www.vbulletin.com/forum
+
+Array
+(
+    [vBulletin] => true
+    [Google Analytics] => true
+)
+
+ - wordpress.org/news
+
+Array
+(
+    [WordPress] => true
+    [Google Analytics] => true
+    [Quantcast] => true
+)
+
+ - xoops.org
+
+Array
+(
+    [XOOPS] => true
+    [Google Analytics] => true
+    [AdSense] => true
+)
+
+ - eurotux.com
+
+Array
+(
+    [Plone] => true
+    [Google Analytics] => true
+)
+
+ - mediawiki.org
+
+Array
+(
+    [MediaWiki] => true
+)
+
+ - cmsmadesimple.org
+
+Array
+(
+    [CMSMadeSimple] => true
+    [Google Analytics] => true
+)
+
+ - silverstripe.com
+
+Array
+(
+    [SilverStripe] => true
+    [Google Analytics] => true
+)
+
+ - movabletype.org
+
+Array
+(
+    [Movable Type] => true
+    [Google Analytics] => true
+)
+
+ - dream4.de
+
+Array
+(
+    [Koobi] => true
+)
+
+ - bbpress.org/forums
+
+Array
+(
+    [bbPress] => true
+)
+
+ - dokuwiki.org
+
+Array
+(
+    [DokuWiki] => true
+    [Google Analytics] => true
+)
+
+ - typo3.org
+
+Array
+(
+    [TYPO3] => true
+)
+
+ - phpnuke.org
+
+Array
+(
+    [PHP-Nuke] => true
+    [Google Analytics] => true
+    [Quantcast] => true
+    [AdSense] => true
+)
+
+ - dotnetnuke.com
+
+Array
+(
+    [DotNetNuke] => true
+    [Google Analytics] => true
+)
+
+ - sitefinity.com
+
+Array
+(
+    [Sitefinity] => true
+    [Google Analytics] => true
+)
+
+ - webgui.org
+
+Array
+(
+    [WebGUI] => true
+    [Google Analytics] => true
+)
+
+ - ez.no
+
+Array
+(
+    [ez Publish] => true
+    [Google Analytics] => true
+)
+
+ - bigace.de
+
+Array
+(
+    [BIGACE] => true
+)
+
+ - everything.typepad.com
+
+Array
+(
+    [TypePad] => true
+    [Google Analytics] => true
+    [Quantcast] => true
+)
+
+ - blogsofnote.blogspot.com
+
+Array
+(
+    [Blogger] => true
+)
+
+ - demo-store.prestashop.com
+
+Array
+(
+    [PrestaShop] => true
+)
+
+ - sharepoint.microsoft.com
+
+Array
+(
+    [SharePoint] => true
+)
+
+ - jalios.com
+
+Array
+(
+    [Jalios JCMS] => true
+    [Google Analytics] => true
+    [Prototype] => true
+)
+
+ - demo.opensourcecms.com/zencart
+
+Array
+(
+    [ZenCart] => true
+)
+
+ - wpml.org
+
+Array
+(
+    [WordPress] => true
+    [WPML] => true
+    [Google Analytics] => true
+)
+
+ - pivotx.net
+
+Array
+(
+    [PivotX] => true
+    [Google Analytics] => true
+)
+
+ - openacs.org
+
+Array
+(
+    [OpenACS] => true
+)
+
+ - concrete5.org
+
+Array
+(
+    [concrete5] => true
+    [Google Analytics] => true
+)
+
+ - webnode.com
+
+Array
+(
+    [Webnode] => true
+    [Google Analytics] => true
+)
+
+ - get-simple.info
+
+Array
+(
+    [GetSimple] => true
+    [Google Analytics] => true
+    [BuySellAds] => true
+)
+
+ - dle-news.ru
+
+Array
+(
+    [DataLifeEngine] => true
+)
+
+ - csphere.eu
+
+Array
+(
+    [ClanSphere] => true
+)
+
+ - prototypejs.org
+
+Array
+(
+    [Google Analytics] => true
+    [Prototype] => true
+)
+
+ - ubercartdemo.com
+
+Array
+(
+    [Ubercart] => true
+)
+
+ - trymodx.com
+
+Array
+(
+    [Google Analytics] => true
+    [MooTools] => true
+    [AddThis] => true
+)
+
+ - mootools.net
+
+Array
+(
+    [Google Analytics] => true
+    [MooTools] => true
+)
+
+ - dojotoolkit.org
+
+Array
+(
+    [Google Analytics] => true
+    [Dojo] => true
+)
+
+ - script.aculo.us
+
+Array
+(
+    [Prototype] => true
+    [script.aculo.us] => true
+)
+
+ - disqus.com/explore
+
+Array
+(
+    [Google Analytics] => true
+    [Quantcast] => true
+)
+
+ - vcitawibiya.blogspot.com
+
+Array
+(
+    [Blogger] => true
+)
+
+ - google.com/recaptcha/demo/ajax
+
+Array
+(
+    [reCaptcha] => true
+)
+
+ - shamwana.co.uk/demo/user
+
+Array
+(
+    [Mollom] => true
+)
+
+ - zenphoto.org
+
+Array
+(
+    [Google Analytics] => true
+    [ZenPhoto] => true
+    [AdSense] => true
+    [AddThis] => true
+)
+
+ - gallery.menalto.com/gallery/demosites
+
+Array
+(
+    [Google Analytics] => true
+    [Gallery2] => true
+    [AdSense] => true
+)
+
+ - xenforo.com
+
+Array
+(
+    [Google Analytics] => true
+    [XenForo] => true
+)
+
+ - gomockingbird.com/mockingbird
+
+Array
+(
+    [Google Analytics] => true
+    [Cappuccino] => true
+)
+
+ - audio.demo.volusion.com
+
+Array
+(
+    [Google Analytics] => true
+    [Volusion] => true
+)
+
+ - addthis.com
+
+Array
+(
+    [Google Analytics] => true
+    [AddThis] => true
+)
+
+ - thedroiddemos.com
+
+Array
+(
+    [WordPress] => true
+    [Google Analytics] => true
+    [Disqus] => true
+    [AdSense] => true
+    [BuySellAds] => true
+)
+
+ - weebly.com
+
+Array
+(
+    [Google Analytics] => true
+    [Quantcast] => true
+    [reCaptcha] => true
+)
+
+ - twitter.github.com/bootstrap
+
+Array
+(
+    [Bootstrap] => true
+)
+
+ - jeremyheintz.jigsy.com
+
+Array
+(
+    [Jigsy] => true
+)
+
+ - www.thedrive.coop
+
+Array
+(
+    [Quantcast] => true
+    [Yola] => true
+)

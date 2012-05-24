@@ -33,7 +33,7 @@ $features[meta] = array(
     "Blogger" => '/blogger/i',
     "PrestaShop" => '/PrestaShop/i',
     "SharePoint" => '/SharePoint/',
-    "JaliosJCMS" => '/Jalios JCMS/i',
+    "Jalios JCMS" => '/Jalios JCMS/i',
     "ZenCart" => '/zen-cart/i',
     "WPML" => '/WPML/i',
     "PivotX" => '/PivotX/i',
@@ -109,3 +109,69 @@ $features[body] = array(
     "OpenCart" => '/index.php\?route=product\/product/',
     "Shibboleth" => '/<form action="\/idp\/Authn\/UserPassword" method="post">/',
 );
+
+function getParceData () {
+
+//$meta = $webDOM->get('meta')->toArray();
+
+//$script = $webDOM->get('script')->toXml();
+
+}
+
+function checkMeta ($webDOM) {
+
+    $meta = $webDOM->get('meta')->toArray();
+
+    foreach ($meta as $value) {
+
+        if (strtolower($value[name]) == 'copyright' || strtolower($value[name]) == 'generator' ||
+            strtolower($value[name]) == 'powered-by' || strtolower($value[name]) == 'author') {
+
+//       var_dump($value);
+
+            $val = $value[content];
+
+            foreach ($features[meta] as $feature => $match) {
+
+                $trigger = preg_match($match, $val);
+                if ($trigger) {
+                    $webSite["$webURL[url]"][$feature] = 'true';
+                };
+            };
+        } elseif (strtolower($value[name]) == 'elggrelease') {
+
+            $webSite["$webURL[url]"][Elgg] = 'true';
+
+        };
+    }
+}
+
+function checkScript ($webDOM) {
+
+    $script = $webDOM->get('script')->toXml();
+
+//var_dump($script);
+
+//foreach ($script as $i) { var_dump($i["#cdata-section"]); }
+
+//foreach ($script as $value) {
+
+//    if (strtolower($value[type]) == 'text/javascript' && strtolower($value[src]) != '') {
+
+//        $val = $value[src];
+
+    $val = $script;
+
+    foreach ($features[script] as $feature => $match) {
+
+        $trigger = preg_match($match, $val);
+        if ($trigger) {
+            $webSite["$webURL[url]"][$feature] = 'true';
+        }
+        ;
+    }
+//   }
+
+//}
+
+}

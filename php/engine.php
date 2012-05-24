@@ -10,9 +10,13 @@
 error_reporting(0);
 
 //include('simplehtmldom/simple_html_dom.php');
-include('./nokogiri/nokogiri.php');
-include('massurls.php');
+include('nokogiri/nokogiri.php');
+
+require 'QueryPath/src/QueryPath/QueryPath.php';
+
 include('features.php');
+include('massurls.php');
+include('misc.php');
 
 $stringArg[] = "url:";
 
@@ -25,6 +29,7 @@ $webURL = getopt('', $stringArg) or die("\n" . 'please provide website url like 
 //foreach ($urls as $webURL[url]) {
 
 $webPage = file_get_contents('http://' . "$webURL[url]") or die("\n" . 'this is not a valid url!' . "\n\n");
+//$webPage = get_data('http://' . "$webURL[url]") or die("\n" . 'this is not a valid url!' . "\n\n");
 
 //$webDOM = new simple_html_dom();
 //$webDOM->load($webPage);
@@ -34,60 +39,14 @@ $webPage = file_get_contents('http://' . "$webURL[url]") or die("\n" . 'this is 
 
 $webDOM = new nokogiri($webPage);
 
-$meta = $webDOM->get('meta')->toArray();
+checkMeta($webDOM);
 
-foreach ($meta as $value) {
+checkScript($webDOM);
 
-    if (strtolower($value[name]) == 'copyright' || strtolower($value[name]) == 'generator' ||
-        strtolower($value[name]) == 'powered-by' || strtolower($value[name]) == 'author') {
+//print "\n" . $webCMS . " - " . $webURL[url] . "\n\n";
 
-//       var_dump($value);
+//print_r($webSite["$webURL[url]"]);
 
-        $val = $value[content];
-
-        foreach ($features[meta] as $feature => $match) {
-
-            $trigger = preg_match($match, $val);
-            if ($trigger) {
-                $webSite["$webURL[url]"][$feature] = 'true';
-            };
-        };
-    } elseif (strtolower($value[name]) == 'elggrelease') {
-
-        $webSite["$webURL[url]"][Elgg] = 'true';
-
-    };
-}
-
-$script = $webDOM->get('script')->toXml();
-
-//var_dump($script);
-
-//foreach ($script as $i) { var_dump($i["#cdata-section"]); }
-
-//foreach ($script as $value) {
-
-//    if (strtolower($value[type]) == 'text/javascript' && strtolower($value[src]) != '') {
-
-//        $val = $value[src];
-
-        $val = $script;
-
-        foreach ($features[script] as $feature => $match) {
-
-            $trigger = preg_match($match, $val);
-            if ($trigger) {
-                $webSite["$webURL[url]"][$feature] = 'true';
-            }
-            ;
-        }
-//   }
-
-//}
-
-print "\n" . $webCMS . " - " . $webURL[url] . "\n\n";
-
-print_r($webSite["$webURL[url]"]);
 //print_r($GLOBALS['http_response_header']);
 
 #var_dump($webHAR["log"]["entries"]["0"]["request"]["url"]);
@@ -97,30 +56,57 @@ print_r($webSite["$webURL[url]"]);
 
 //}
 
+$qp = qp($webPage)->find('script');
 
+foreach ($qp as $item) {
 
+//var_dump($item->html());
 
-
-
-
-
-
-
-
-function get_data($url)
-{
-    $ch = curl_init();
-    $timeout = 9;
-    $userAgent = 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322)';
-    curl_setopt($ch, CURLOPT_USERAGENT, $userAgent);
-    curl_setopt($ch, CURLOPT_URL, $url);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
-    curl_setopt($ch, CURLOPT_FAILONERROR, true);
-    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-    curl_setopt($ch, CURLOPT_AUTOREFERER, true);
-    curl_setopt($ch, CURLOPT_TIMEOUT, 60);
-    $data = curl_exec($ch);
-    curl_close($ch);
-    return $data;
 }
+
+//-----------------------------------------------
+
+echo ("------------------------------------------------------------" . "\n\n");
+
+
+$dom = new DOMDocument();
+$dom->loadHTML($webPage);
+
+$xpath = new DOMXPath($dom);
+
+$tags = $xpath->query('//script | //script/@src');
+
+foreach ($tags as $tag) {
+    var_dump(trim($tag->nodeValue));
+
+    echo ('-----------------------------------111111' . "\n\n");
+
+}
+
+
+echo ("------------------------------------------------------------" . "\n\n");
+
+/*
+ * jQuery
+ * jQuery UI
+ * Facebook
+ * YUI
+ * G+
+ * SWFObject
+ * HumansTXT
+ * Twitter
+ * Google Loader
+ * Piwik
+ * MS .NET
+ * Modernizr
+ * Google Font API
+ * Mint
+ * YouTube
+ * Cufon
+ * Drupal
+ * MODx
+ * Crazzy Egg
+ * Clicky
+ * Google Code Prettify
+ *
+ */
