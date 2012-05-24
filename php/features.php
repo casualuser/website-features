@@ -7,7 +7,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-$features[meta] = array(
+$features['meta'] = array(
 //  meta
     "Joomla" => '/Joomla/i',
     "vBulletin" => '/vBulletin/i',
@@ -50,7 +50,7 @@ $features[meta] = array(
     "Avactis" => '/Avactis Team/i',
 );
 
-$features[script] = array(
+$features['script'] = array(
 //  script
     "Google Analytics" => '/google-analytics.com\/(ga|urchin).js/i',
     "Quantcast" => '/quantserve\.com\/quant\.js/i',
@@ -83,7 +83,7 @@ $features[script] = array(
     "Alfresco" => '/(alfresco)+(-min)?(\/scripts\/menu)?\.js/',
 );
 
-$features[body] = array(
+$features['body'] = array(
 //  html
     "SMF" => '/<script .+\s+var smf_/i',
     "Magento" => '/var BLANK_URL = "[^>]+js\/blank\.html"/i',
@@ -110,62 +110,50 @@ $features[body] = array(
     "Shibboleth" => '/<form action="\/idp\/Authn\/UserPassword" method="post">/',
 );
 
-function getParceData ($webDOM) {
-
-//$meta = $webDOM->get('meta')->toArray();
-
-//$script = $webDOM->get('script')->toXml();
-
-}
-
-function checkMeta ($webDOM) {
+function checkMeta ($xpath) {
 
     global $webSite, $webURL, $features;
 
-    $meta = $webDOM->get('meta')->toArray();
+    $meta = $xpath->query('//meta/@content');
 
     foreach ($meta as $value) {
 
-        if (strtolower($value[name]) == 'copyright' || strtolower($value[name]) == 'generator' ||
-            strtolower($value[name]) == 'powered-by' || strtolower($value[name]) == 'author') {
+//        if (strtolower($value[name]) == 'copyright' || strtolower($value[name]) == 'generator' ||
+//            strtolower($value[name]) == 'powered-by' || strtolower($value[name]) == 'author') {
 
 //       var_dump($value);
 
-            $val = $value[content];
+           foreach ($features['meta'] as $feature => $match) {
 
-            foreach ($features[meta] as $feature => $match) {
-
-                $trigger = preg_match($match, $val);
+                $trigger = preg_match($match, $value->value);
                 if ($trigger) {
                     $webSite["$webURL[url]"][$feature] = 'true';
+                }
+            }
+        /*
+               elseif (strtolower($value[name]) == 'elggrelease') {
+                     $webSite["$webURL[url]"][Elgg] = 'true';
                 };
-            };
-        } elseif (strtolower($value[name]) == 'elggrelease') {
+        */
 
-            $webSite["$webURL[url]"][Elgg] = 'true';
+  }
 
-        };
-    }
-//    return $webSite;
 }
 
-function checkScript ($webDOM) {
+function checkScript ($xpath) {
 
     global $webSite, $webURL, $features;
 
-    $script = $webDOM->get('script')->toXml();
+    $script = $xpath->query('//script | //script/@src');
+    //$script = $webDOM->get('script')->toXml();
 
-//foreach ($script as $value) {
+foreach ($script as $value) {
 
 //    if (strtolower($value[type]) == 'text/javascript' && strtolower($value[src]) != '') {
 
-//        $val = $value[src];
+    foreach ($features['script'] as $feature => $match) {
 
-    $val = $script;
-
-    foreach ($features[script] as $feature => $match) {
-
-        $trigger = preg_match($match, $val);
+        $trigger = preg_match($match, $value->nodeValue);
         if ($trigger) {
             $webSite["$webURL[url]"][$feature] = 'true';
         }
@@ -173,7 +161,6 @@ function checkScript ($webDOM) {
     }
 //   }
 
-//}
+}
 
-//    return $webSite;
 }

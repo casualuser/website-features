@@ -4,8 +4,10 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/js/Wappalyzer" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/js/chromesniffer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/php/FluentDOM" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/php/QueryPath" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/php/nokogiri" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/php/phpquery" vcs="Git" />
   </component>
 </project>
 
