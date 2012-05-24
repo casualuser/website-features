@@ -16,7 +16,7 @@ require 'QueryPath/src/QueryPath/QueryPath.php';
 
 include('features.php');
 include('massurls.php');
-include('misc.php');
+//include('misc.php');
 
 $stringArg[] = "url:";
 
@@ -37,15 +37,25 @@ $webPage = file_get_contents('http://' . "$webURL[url]") or die("\n" . 'this is 
 ###$meta = get_meta_tags('http://' . "$webURL[url]") or die("\n" . 'this is not a valid key format!' . "\n\n");
 #var_dump($meta);
 
+$dom = new DOMDocument();
+$dom->loadHTML($webPage);
+
+$xpath = new DOMXPath($dom);
+
+$tagscript = $xpath->query('//script | //script/@src');
+$tagmeta = $xpath->query('//meta/@content');
+
+// ----------------------------------------
+
 $webDOM = new nokogiri($webPage);
 
 checkMeta($webDOM);
 
 checkScript($webDOM);
 
-//print "\n" . $webCMS . " - " . $webURL[url] . "\n\n";
+print "\n" . $webCMS . " - " . $webURL[url] . "\n\n";
 
-//print_r($webSite["$webURL[url]"]);
+print_r($webSite["$webURL[url]"]);
 
 //print_r($GLOBALS['http_response_header']);
 
@@ -66,25 +76,28 @@ foreach ($qp as $item) {
 
 //-----------------------------------------------
 
+/*
+
 echo ("------------------------------------------------------------" . "\n\n");
 
-
-$dom = new DOMDocument();
-$dom->loadHTML($webPage);
-
-$xpath = new DOMXPath($dom);
-
-$tags = $xpath->query('//script | //script/@src');
-
-foreach ($tags as $tag) {
+foreach ($tagscript as $tag) {
     var_dump(trim($tag->nodeValue));
 
     echo ('-----------------------------------111111' . "\n\n");
 
 }
 
+foreach ($tagmeta as $tag) {
+    var_dump(trim($tag->nodeValue));
+
+    echo ('-----------------------------------222222' . "\n\n");
+
+}
 
 echo ("------------------------------------------------------------" . "\n\n");
+
+
+*/
 
 /*
  * jQuery

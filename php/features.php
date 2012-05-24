@@ -110,7 +110,7 @@ $features[body] = array(
     "Shibboleth" => '/<form action="\/idp\/Authn\/UserPassword" method="post">/',
 );
 
-function getParceData () {
+function getParceData ($webDOM) {
 
 //$meta = $webDOM->get('meta')->toArray();
 
@@ -119,6 +119,8 @@ function getParceData () {
 }
 
 function checkMeta ($webDOM) {
+
+    global $webSite, $webURL, $features;
 
     $meta = $webDOM->get('meta')->toArray();
 
@@ -144,15 +146,14 @@ function checkMeta ($webDOM) {
 
         };
     }
+//    return $webSite;
 }
 
 function checkScript ($webDOM) {
 
+    global $webSite, $webURL, $features;
+
     $script = $webDOM->get('script')->toXml();
-
-//var_dump($script);
-
-//foreach ($script as $i) { var_dump($i["#cdata-section"]); }
 
 //foreach ($script as $value) {
 
@@ -174,4 +175,5 @@ function checkScript ($webDOM) {
 
 //}
 
+//    return $webSite;
 }
