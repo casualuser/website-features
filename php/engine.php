@@ -7,50 +7,22 @@
  * To change this template use File | Settings | File Templates.
  */
 
-error_reporting(0);
+class webFeatures {
+
+function webFeatures () {
 
 include('features.php');
-include('massurls.php');
 
+//include('massurls.php');
 //include('misc.php');
-
-$stringArg[] = "url:";
-
-//$webURL = getopt('', $stringArg) or die("\n" . 'please provide website url like this: "--url google.com"' . "\n\n");
-
-//$webHARs = file_get_contents("http://browserhistory.beget.ru/2012/4/22/18_27_55_www.joomla.org.har");
-//$webHAR = json_decode($webHARs, true);
-//$webPage = $webHAR["log"]["entries"]["0"]["response"]["content"]["text"];
-
-foreach ($urls as $webURL['url']) {
-
-$webPage = file_get_contents('http://' . $webURL['url']) or die("\n" . 'this is not a valid url!' . "\n\n");
-//$webPage = get_data('http://' . "$webURL[url]") or die("\n" . 'this is not a valid url!' . "\n\n");
-
-$metasss = get_meta_tags('http://' . "$webURL[url]") or die("\n" . 'this is not a valid key format!' . "\n\n");
-
-var_dump($metasss);
-
-$config = array(
-    'indent'         => true,
-    'output-xhtml'   => true,
-    'wrap'           => 200);
-
-$tidy = new tidy;
-$tidy->parseString($webPage, $config, 'utf8');
-$tidy->cleanRepair();
-
-$dom = new DOMDocument();
-$dom->loadHTML($tidy);
-
-$webDOM = new DOMXPath($dom);
 
 // ----------------------------------------
 
-//$webDOM = new nokogiri($webPage);
-
 checkMeta($webDOM);
 checkScript($webDOM);
+checkBody($webDOM);
+
+// ----------------------------------------
 
 print "\n" . "$webCMS" . " - " . $webURL['url'] . "\n\n";
 
@@ -60,18 +32,64 @@ print_r($webSite[$webURL['url']]);
 
 #var_dump($webHAR["log"]["entries"]["0"]["request"]["url"]);
 
-//$webPage->clear();
-//    unset ($webPage);
+  }
 
-//}
+function webDataConnect () {
 
-//$qp = qp($webPage)->find('script');
+//$stringArg[] = "url:";
 
-//foreach ($qp as $item) {
+//$webURL = getopt('', $stringArg) or die("\n" . 'please provide website url like this: "--url google.com"' . "\n\n");
 
-//var_dump($item->html());
+    $harFiles = scandir('./har');
+
+foreach ($harFiles as $path) {
+
+    if ($path != '.' && $path != '..') {
+
+        $webHARs = file_get_contents('./har/'.$path);
+        $webHAR = json_decode($webHARs, true);
+        $webPage = $webHAR["log"]["entries"]["0"]["response"]["content"]["text"];
+        $webURL['url'] = $webHAR["log"]["entries"]["0"]["request"]["headers"]["0"]["value"];
+
+//foreach ($urls as $webURL['url']) {
+
+//$webPage = file_get_contents('http://' . $webURL['url']) or die("\n" . 'this is not a valid url!' . "\n\n");
+//$webPage = get_data('http://' . "$webURL[url]") or die("\n" . 'this is not a valid url!' . "\n\n");
+
+//$metasss = get_meta_tags('http://' . "$webURL[url]") or die("\n" . 'this is not a valid key format!' . "\n\n");
+//var_dump($metasss);
+
+
+        $config = array(
+            'indent'         => true,
+            'output-xhtml'   => true,
+            'wrap'           => 200);
+
+        $tidy = new tidy;
+        $tidy->parseString($webPage, $config, 'utf8');
+        $tidy->cleanRepair();
+
+        $dom = new DOMDocument();
+        $dom->loadHTML($tidy);
+//$dom->loadHTML($webPage);
+
+        $webDOM = new DOMXPath($dom);
 
 }
+}
+}
+
+function webDataGet () {
+
+
+
+}
+
+}
+
+$webReport = new webFeatures();
+$webReport->webDataConnect();
+$webReport->webDataGet();
 
 //-----------------------------------------------
 
@@ -97,5 +115,6 @@ print_r($webSite[$webURL['url']]);
  * Crazzy Egg
  * Clicky
  * Google Code Prettify
+ * Yandex.Metrika
  *
  */

@@ -2,8 +2,88 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28cf9267-fdc9-48d7-a36b-5c90e3ecd7e9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/10_33_21_platniihosting.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/11_18_44_vladqa.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/12_20_59_oknaardi.su.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/12_51_23_harand.bget.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/12_59_52_photo1000.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_14_32_beget.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_21_43_all-tv-online.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_27_45_schoolidea.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_29_28_all-tv-online.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_30_14_tdmaster-nn.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_31_17_tdmaster-nn.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_33_18_all-tv-online.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_35_5_ankinmir.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_39_25_tdmaster-nn.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_3_12_beget.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_45_18_ankinmir.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_47_24_tdmaster-nn.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_4_23_ulanskaya-ballada.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_53_42_tdmaster-nn.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_55_53_womanrt.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_57_18_womanrt.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_57_56_tdmaster-nn.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_58_27_womanrt.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_59_23_tdmaster-nn.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_15_27_photo1000.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_17_13_xn--80adtklbcb5f.xn--p1ai.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_1_16_tdmaster-nn.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_26_13_mac-best.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_36_49_rombolshak.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_37_31_ankinmir.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_37_36_rombolshak.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_38_39_rombolshak.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_39_7_rombolshak.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_40_19_loolup.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_40_21_rombolshak.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_41_18_rombolshak.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_41_42_rombolshak.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_43_44_loolup.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_54_28_solointerni.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/15_18_57_doctorkirov.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/15_33_0_iso22.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/15_47_14_zaoszem.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/16_21_1_atn-talisman.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/16_36_28_povedam.com.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/16_38_39_povedam.com.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/16_55_34_ski-kazan.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/16_57_44_amiromaster.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/17_15_51_kchrline.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/17_24_29_mirsecret.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/17_27_8_09biz.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/17_46_40_candy-shop.me.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/18_0_12_energy-alians.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/18_18_21_exitdoor.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/18_25_47_crafthome.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/19_16_27_nn-shar.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/19_21_30_butiken.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/4_51_26_newinmag.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/6_41_35_its-site.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/6_47_43_wowpedia.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/7_38_12_tur-sunwind.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/7_41_22_tur-sunwind.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/7_41_59_tur-sunwind.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/7_42_20_tur-sunwind.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/7_43_40_tur-sunwind.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/7_47_30_tur-sunwind.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/7_52_9_tur-sunwind.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/7_55_33_tur-sunwind.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/7_56_1_tur-sunwind.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/7_56_29_tur-sunwind.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/7_57_18_tur-sunwind.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/8_41_59_www.npso.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/8_4_31_tur-sunwind.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/8_4_52_tur-sunwind.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/8_54_10_fivezero.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/8_8_54_mythsofavalon.com.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/9_16_30_tur-sunwind.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/9_21_33_tur-sunwind.ru.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/9_9_41_to-i-se.ru.har" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/engine.php" afterPath="$PROJECT_DIR$/php/engine.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/features.php" afterPath="$PROJECT_DIR$/php/features.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/misc.php" afterPath="$PROJECT_DIR$/php/misc.php" />
     </list>
     <ignored path="features.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +112,7 @@
       <file leaf-file-name="misc.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/misc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="1" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0">
+            <state line="13" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -41,9 +121,10 @@
       <file leaf-file-name="engine.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/engine.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="236" selection-end="236" vertical-scroll-proportion="0.2863436">
+            <state line="19" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.4431818">
               <folding>
-                <element signature="e#6#163#0" expanded="true" />
+                <element signature="e#651#1994#0" expanded="false" />
+                <element signature="e#1996#2025#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -52,8 +133,15 @@
       <file leaf-file-name="features.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/features.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="14" selection-start="3477" selection-end="3477" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="161" column="11" selection-start="5785" selection-end="5785" vertical-scroll-proportion="-8.125">
+              <folding>
+                <element signature="e#185#1521#0" expanded="false" />
+                <element signature="e#1546#2886#0" expanded="false" />
+                <element signature="e#2909#4507#0" expanded="false" />
+                <element signature="n#checkMeta#0;n#!!top" expanded="false" />
+                <element signature="n#checkScript#0;n#!!top" expanded="false" />
+                <element signature="n#checkBody#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -320,17 +408,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="25" width="1555" height="879" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297943" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23623092" sideWeight="0.5978112" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13603185" sideWeight="0.6703146" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40218878" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32968536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -394,33 +482,59 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/php/engine.php</url>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/php/features.php</url>
+          <line>165</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/php/features.php</url>
+          <line>173</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/php/features.php</url>
+          <line>175</line>
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/php/misc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="1" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/engine.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="236" selection-end="236" vertical-scroll-proportion="0.2863436">
-          <folding>
-            <element signature="e#6#163#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/features.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="14" selection-start="3477" selection-end="3477" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="13" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/massurls.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="2" selection-start="1623" selection-end="1623" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/features.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="161" column="11" selection-start="5785" selection-end="5785" vertical-scroll-proportion="-8.125">
+          <folding>
+            <element signature="e#185#1521#0" expanded="false" />
+            <element signature="e#1546#2886#0" expanded="false" />
+            <element signature="e#2909#4507#0" expanded="false" />
+            <element signature="n#checkMeta#0;n#!!top" expanded="false" />
+            <element signature="n#checkScript#0;n#!!top" expanded="false" />
+            <element signature="n#checkBody#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/engine.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.4431818">
+          <folding>
+            <element signature="e#651#1994#0" expanded="false" />
+            <element signature="e#1996#2025#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

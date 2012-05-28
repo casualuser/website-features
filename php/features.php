@@ -96,7 +96,7 @@ $features['body'] = array(
     "miniBB" => '/<a href=("|")[^>]+minibb.+\s*<!--End of copyright link/i',
     "PHP-Fusion" => '/(href|src)=[""]?infusions\//i', // @todo => 'recheck this pattern again
     "OpenX" => '/(href|src)=[""].*delivery\/(afr|ajs|avw|ck)\.php[^""]*/',
-    "GetSatisfaction" => '/asset_host\s*\+\s*"javascripts\/feedback.*\.js/igm', // better recognization
+    "GetSatisfaction" => '/asset_host\s*\+\s*"javascripts\/feedback.*\.js/im', // better recognization
     "Fatwire" => '/\/Satellite\?|\/ContentServer\?/',
     "Contao" => '/powered by (TYPOlight|Contao)/i',
     "Moodle" => '/<link[^>]*\/theme\/standard\/styles.php".*>|<link[^>]*\/theme\/styles.php\?theme=.*".*>/',
@@ -121,13 +121,11 @@ function checkMeta ($xpath) {
 //        if (strtolower($value[name]) == 'copyright' || strtolower($value[name]) == 'generator' ||
 //            strtolower($value[name]) == 'powered-by' || strtolower($value[name]) == 'author') {
 
-//       var_dump($value);
-
            foreach ($features['meta'] as $feature => $match) {
 
                 $trigger = preg_match($match, $value->value);
                 if ($trigger) {
-                    $webSite["$webURL[url]"][$feature] = 'true';
+                    $webSite[$webURL['url']][$feature] = 'true';
                 }
             }
         /*
@@ -145,7 +143,6 @@ function checkScript ($xpath) {
     global $webSite, $webURL, $features;
 
     $script = $xpath->query('//script | //script/@src');
-    //$script = $webDOM->get('script')->toXml();
 
 foreach ($script as $value) {
 
@@ -155,12 +152,34 @@ foreach ($script as $value) {
 
         $trigger = preg_match($match, $value->nodeValue);
         if ($trigger) {
-            $webSite["$webURL[url]"][$feature] = 'true';
+            $webSite[$webURL['url']][$feature] = 'true';
         }
-        ;
     }
-//   }
+}
 
 }
 
+function checkBody ($xpath) {
+
+    global $webSite, $webURL, $features;
+
+    $body = $xpath->query('//body');
+
+    foreach ($body as $value) {
+
+        foreach ($features['body'] as $feature => $match) {
+
+            $val = $value->nodeValue;
+
+            $trigger = preg_match($match, $val);
+            if ($trigger) {
+                $webSite[$webURL['url']][$feature] = 'true';
+            }
+
+//            var_dump($value);
+//            print_r("\n".'-------------------------------------'."\n\n");
+
+    }
+
+    }
 }
