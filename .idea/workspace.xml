@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28cf9267-fdc9-48d7-a36b-5c90e3ecd7e9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/16_31_43_trymodx.com.har" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/har_src/16_31_43_trymodx.com.har" afterPath="$PROJECT_DIR$/php/har_src/16_31_43_trymodx.com.har" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/features.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/www.trymodx.com.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/misc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/modx_log_tidy.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/engine.php" afterPath="$PROJECT_DIR$/php/engine.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/misc.php" afterPath="$PROJECT_DIR$/php/misc.php" />
     </list>
     <ignored path="features.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,38 +33,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="misc.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/misc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="166" selection-end="166" vertical-scroll-proportion="-5.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="engine.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="engine.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/engine.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="236" column="2" selection-start="8400" selection-end="8400" vertical-scroll-proportion="0.50660795">
+            <state line="232" column="0" selection-start="8430" selection-end="8430" vertical-scroll-proportion="-5.3061223">
               <folding>
                 <element signature="e#6#163#0" expanded="true" />
-                <element signature="e#293#5316#0" expanded="false" />
-                <element signature="e#5318#6306#0" expanded="false" />
-                <element signature="e#6308#7189#0" expanded="false" />
-                <element signature="e#7191#7745#0" expanded="false" />
-                <element signature="e#7747#8366#0" expanded="false" />
-                <element signature="e#9484#10187#0" expanded="false" />
-                <element signature="e#10189#10333#0" expanded="false" />
-                <element signature="e#10335#10548#0" expanded="false" />
+                <element signature="e#264#5255#0" expanded="false" />
+                <element signature="e#5257#6245#0" expanded="false" />
+                <element signature="e#6247#7041#0" expanded="false" />
+                <element signature="e#7043#7560#0" expanded="false" />
+                <element signature="e#7562#8144#0" expanded="false" />
+                <element signature="e#9262#9965#0" expanded="false" />
+                <element signature="e#9967#10111#0" expanded="false" />
+                <element signature="e#10113#10326#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="features.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/features.php">
+      <file leaf-file-name="massurls.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/massurls.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="-5.625">
+            <state line="19" column="20" selection-start="457" selection-end="457" vertical-scroll-proportion="0.2863436">
               <folding />
             </state>
           </provider>
@@ -83,10 +76,10 @@
       <list>
         <option value="$PROJECT_DIR$/php/website_features.php" />
         <option value="$PROJECT_DIR$/js/detector.js" />
-        <option value="$PROJECT_DIR$/php/massurls.php" />
         <option value="$PROJECT_DIR$/php/features.php" />
         <option value="$PROJECT_DIR$/php/misc.php" />
         <option value="$PROJECT_DIR$/php/engine.php" />
+        <option value="$PROJECT_DIR$/php/massurls.php" />
       </list>
     </option>
   </component>
@@ -277,7 +270,7 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
-    <configuration default="false" name="engine.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/php/engine.php" scriptParameters="--url www.joomla.org">
+    <configuration default="false" name="engine.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/php/engine.php" scriptParameters="--url ./har/www.trymodx.com.har">
       <RunnerSettings RunnerId="PhpRunner" />
       <RunnerSettings RunnerId="PhpScriptDebugRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
@@ -403,39 +396,27 @@
         <state line="48" column="11" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.005167959" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/massurls.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="2" selection-start="1623" selection-end="1623" vertical-scroll-proportion="0.11627907" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/features.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="-5.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/misc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="166" selection-end="166" vertical-scroll-proportion="-5.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/engine.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="236" column="2" selection-start="8400" selection-end="8400" vertical-scroll-proportion="0.50660795">
+        <state line="232" column="0" selection-start="8430" selection-end="8430" vertical-scroll-proportion="-5.3061223">
           <folding>
             <element signature="e#6#163#0" expanded="true" />
-            <element signature="e#293#5316#0" expanded="false" />
-            <element signature="e#5318#6306#0" expanded="false" />
-            <element signature="e#6308#7189#0" expanded="false" />
-            <element signature="e#7191#7745#0" expanded="false" />
-            <element signature="e#7747#8366#0" expanded="false" />
-            <element signature="e#9484#10187#0" expanded="false" />
-            <element signature="e#10189#10333#0" expanded="false" />
-            <element signature="e#10335#10548#0" expanded="false" />
+            <element signature="e#264#5255#0" expanded="false" />
+            <element signature="e#5257#6245#0" expanded="false" />
+            <element signature="e#6247#7041#0" expanded="false" />
+            <element signature="e#7043#7560#0" expanded="false" />
+            <element signature="e#7562#8144#0" expanded="false" />
+            <element signature="e#9262#9965#0" expanded="false" />
+            <element signature="e#9967#10111#0" expanded="false" />
+            <element signature="e#10113#10326#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/massurls.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="20" selection-start="457" selection-end="457" vertical-scroll-proportion="0.2863436">
+          <folding />
         </state>
       </provider>
     </entry>

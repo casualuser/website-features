@@ -9,16 +9,11 @@
 
 error_reporting(0);
 
-//require ('features.php');
-
 class webFeatures {
 
 public $webSite, $webURL, $webDOM, $webPage, $features;
 
 function __construct () {
-
-//include('massurls.php');
-//include('misc.php');
 
 // ----------------------------------------
 
@@ -59,7 +54,7 @@ function __construct () {
         "GetSimple" => '/GetSimple/',
         "DataLifeEngine" => '/DataLife Engine/',
         "ClanSphere" => '/ClanSphere/',
-        "phpBB" => '/phpBB/i',
+        "phpBB" => '/phpBB/i', // ok
 //    "Elgg" => '/.+/',
         "Serendipity" => '/Serendipity/i',
         "Avactis" => '/Avactis Team/i',
@@ -67,7 +62,7 @@ function __construct () {
 
     $this->features['script'] = array(
 //  script
-        "Google Analytics" => '/google-analytics.com\/(ga|urchin).js/i',
+        "Google Analytics" => '/google-analytics.com\/(ga|urchin).js/i', // ok
         "Quantcast" => '/quantserve\.com\/quant\.js/i',
         "Prototype" => '/prototype\.js/i',
         "Joomla" => '/\/components\/com_/',
@@ -84,7 +79,7 @@ function __construct () {
         "Mollom" => '/mollom\/mollom\.js/i',
         "ZenPhoto" => '/zp-core\/js/i',
         "Gallery2" => '/main\.php\?.*g2_.*/i',
-        "AdSense" => '/pagead\/show_ads\.js/',
+        "AdSense" => '/pagead\/show_ads\.js/i', // ok
         "XenForo" => '/js\/xenforo\//i',
         "Cappuccino" => '/Frameworks\/Objective-J\/Objective-J\.js/',
         "Avactis" => '/\/avactis-themes\//i',
@@ -156,11 +151,7 @@ function file_get_contents_curl($url) {
 
 function checkMeta ($xpath) {
 
-//        global $webSite, $webURL;
-
         $meta = $xpath->query('//meta/@content');
-
-        if (is_array($meta)) { echo ("array!");}
 
         foreach ($meta as $value) {
 
@@ -186,8 +177,6 @@ function checkMeta ($xpath) {
 
 function checkScript ($xpath) {
 
-//        global $webSite, $webURL;
-
         $script = $xpath->query('//script | //script/@src');
 
         foreach ($script as $value) {
@@ -206,8 +195,6 @@ function checkScript ($xpath) {
     }
 
 function checkBody ($xpath) {
-
-//        global $webSite, $webURL;
 
         $body = $xpath->query('//body');
 
