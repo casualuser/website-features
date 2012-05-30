@@ -162,7 +162,7 @@ function checkMeta ($xpath) {
 
                 $trigger = preg_match($match, $value->value);
                 if ($trigger) {
-                    $this->webSite[$webURL['url']][$feature] = 'true';
+                    $this->webSite[$this->webURL['url']][$feature] = 'true';
                 }
             }
             /*
@@ -187,7 +187,7 @@ function checkScript ($xpath) {
 
                 $trigger = preg_match($match, $value->nodeValue);
                 if ($trigger) {
-                    $this->webSite[$webURL['url']][$feature] = 'true';
+                    $this->webSite[$this->webURL['url']][$feature] = 'true';
                 }
             }
         }
@@ -208,7 +208,7 @@ function checkBody ($xpath) {
 
                 $trigger = preg_match($match, $val);
                 if ($trigger) {
-                    $this->webSite[$webURL['url']][$feature] = 'true';
+                    $this->webSite[$this->webURL['url']][$feature] = 'true';
                 }
 
 //            var_dump($value);
@@ -237,6 +237,7 @@ foreach ($harFiles as $path) {
         $webHAR = json_decode($webHARs, true);
         $this->webURL['url'] = $webHAR["log"]["entries"]["0"]["request"]["headers"]["0"]["value"];
         $this->webPage = $webHAR["log"]["entries"]["0"]["response"]["content"]["text"];
+        $this->webSite[$this->webURL['url']]['webPage'] = $this->webPage;
 
 // ------------------------------- >end< this code is only really required here ---------------
 
