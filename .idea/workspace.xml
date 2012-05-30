@@ -2,6 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28cf9267-fdc9-48d7-a36b-5c90e3ecd7e9" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/forums.mozillazine.org.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har_src_test/_1c-bitrix.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har_src_test/_ABO.CMS.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har_src_test/_Amiro.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har_src_test/_Drupal.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har_src_test/_HostCMS.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har_src_test/_Joomla.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har_src_test/_MODx.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har_src_test/_Magento.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har_src_test/_NetCat.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har_src_test/_UMI.CMS.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har_src_test/_WordPress.har" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har_src_test/_phpBB.har" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/engine.php" afterPath="$PROJECT_DIR$/php/engine.php" />
     </list>
     <ignored path="features.iws" />
@@ -31,16 +45,12 @@
       <file leaf-file-name="engine.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/engine.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="319" column="11" selection-start="10697" selection-end="10697" vertical-scroll-proportion="2.984496">
+            <state line="21" column="34" selection-start="394" selection-end="394" vertical-scroll-proportion="0.33039647">
               <folding>
-                <element signature="e#264#5255#0" expanded="false" />
-                <element signature="e#5257#6245#0" expanded="false" />
-                <element signature="e#6247#7047#0" expanded="false" />
-                <element signature="e#7049#7572#0" expanded="false" />
-                <element signature="e#7574#8162#0" expanded="false" />
-                <element signature="e#9354#10057#0" expanded="false" />
-                <element signature="e#10059#10203#0" expanded="false" />
-                <element signature="e#10205#10418#0" expanded="false" />
+                <element signature="e#7402#7742#0" expanded="false" />
+                <element signature="e#7754#8272#0" expanded="false" />
+                <element signature="e#8278#8662#0" expanded="false" />
+                <element signature="e#8668#8960#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -49,7 +59,7 @@
       <file leaf-file-name="massurls.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/massurls.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="20" selection-start="457" selection-end="457" vertical-scroll-proportion="-8.125">
+            <state line="19" column="20" selection-start="457" selection-end="457" vertical-scroll-proportion="6.0">
               <folding />
             </state>
           </provider>
@@ -154,7 +164,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="php" />
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chromesniffer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -175,7 +203,7 @@
       <recent name="$PROJECT_DIR$/JS" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.engine.php">
+  <component name="RunManager" selected="PHP Web Application.website.php">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method>
@@ -264,7 +292,7 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
-    <configuration default="false" name="engine.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/php/engine.php" scriptParameters="--url ./har/www.trymodx.com.har">
+    <configuration default="false" name="engine.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/php/engine.php">
       <RunnerSettings RunnerId="PhpRunner" />
       <RunnerSettings RunnerId="PhpScriptDebugRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
@@ -315,7 +343,8 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14001328" sideWeight="0.5978112" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40218878" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40218878" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24950232" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -325,7 +354,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JsTestDriver Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
@@ -382,14 +410,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/php/engine.php</url>
-          <line>312</line>
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/_types.php">
@@ -399,23 +420,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/massurls.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="20" selection-start="457" selection-end="457" vertical-scroll-proportion="-8.125">
+        <state line="19" column="20" selection-start="457" selection-end="457" vertical-scroll-proportion="6.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/chromesniffer/apps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="294" column="19" selection-start="5156" selection-end="5156" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/chromesniffer/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="8" selection-start="140" selection-end="140" vertical-scroll-proportion="0.19148937">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/chromesniffer/detector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="22" selection-start="482" selection-end="482" vertical-scroll-proportion="0.27659574">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/engine.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="319" column="11" selection-start="10697" selection-end="10697" vertical-scroll-proportion="2.984496">
+        <state line="21" column="34" selection-start="394" selection-end="394" vertical-scroll-proportion="0.33039647">
           <folding>
-            <element signature="e#264#5255#0" expanded="false" />
-            <element signature="e#5257#6245#0" expanded="false" />
-            <element signature="e#6247#7047#0" expanded="false" />
-            <element signature="e#7049#7572#0" expanded="false" />
-            <element signature="e#7574#8162#0" expanded="false" />
-            <element signature="e#9354#10057#0" expanded="false" />
-            <element signature="e#10059#10203#0" expanded="false" />
-            <element signature="e#10205#10418#0" expanded="false" />
+            <element signature="e#7402#7742#0" expanded="false" />
+            <element signature="e#7754#8272#0" expanded="false" />
+            <element signature="e#8278#8662#0" expanded="false" />
+            <element signature="e#8668#8960#0" expanded="false" />
           </folding>
         </state>
       </provider>
