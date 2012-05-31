@@ -1,10 +1,8 @@
 <?php
 /**
  * Created by JetBrains PhpStorm.
- * User: aleksei
- * Date: 5/17/12
- * Time: 1:40 PM
- * To change this template use File | Settings | File Templates.
+ * User: Aleksei Tcelishchev
+ * Account: @casualuser
  */
 
 error_reporting(0);

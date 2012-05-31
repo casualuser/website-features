@@ -2,90 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28cf9267-fdc9-48d7-a36b-5c90e3ecd7e9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/10_33_21_platniihosting.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/11_18_44_vladqa.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/12_20_59_oknaardi.su.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/12_51_23_harand.bget.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/12_59_52_photo1000.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_14_32_beget.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_21_43_all-tv-online.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_27_45_schoolidea.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_29_28_all-tv-online.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_30_14_tdmaster-nn.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_31_17_tdmaster-nn.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_33_18_all-tv-online.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_35_5_ankinmir.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_39_25_tdmaster-nn.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_3_12_beget.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_45_18_ankinmir.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_47_24_tdmaster-nn.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_4_23_ulanskaya-ballada.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_53_42_tdmaster-nn.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_55_53_womanrt.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_57_18_womanrt.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_57_56_tdmaster-nn.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_58_27_womanrt.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/13_59_23_tdmaster-nn.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_15_27_photo1000.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_17_13_xn--80adtklbcb5f.xn--p1ai.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_1_16_tdmaster-nn.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_26_13_mac-best.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_36_49_rombolshak.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_37_31_ankinmir.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_37_36_rombolshak.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_38_39_rombolshak.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_39_7_rombolshak.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_40_19_loolup.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_40_21_rombolshak.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_41_18_rombolshak.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_41_42_rombolshak.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_43_44_loolup.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/14_54_28_solointerni.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/15_18_57_doctorkirov.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/15_33_0_iso22.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/15_47_14_zaoszem.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/16_21_1_atn-talisman.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/16_25_19_oknaardi.su.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/16_31_43_trymodx.com.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/16_36_28_povedam.com.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/16_38_39_povedam.com.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/16_39_14_revolution-213.trymodx.com.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/16_40_6_evolution-105.trymodx.com.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/16_55_34_ski-kazan.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/16_57_44_amiromaster.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/17_15_51_kchrline.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/17_24_29_mirsecret.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/17_27_8_09biz.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/17_46_40_candy-shop.me.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/18_0_12_energy-alians.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/18_18_21_exitdoor.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/18_25_47_crafthome.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/19_16_27_nn-shar.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/19_21_30_butiken.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/4_51_26_newinmag.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/6_41_35_its-site.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/6_47_43_wowpedia.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/7_38_12_tur-sunwind.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/7_41_22_tur-sunwind.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/7_41_59_tur-sunwind.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/7_42_20_tur-sunwind.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/7_43_40_tur-sunwind.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/7_47_30_tur-sunwind.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/7_52_9_tur-sunwind.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/7_55_33_tur-sunwind.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/7_56_1_tur-sunwind.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/7_56_29_tur-sunwind.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/7_57_18_tur-sunwind.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/8_41_59_www.npso.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/8_4_31_tur-sunwind.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/8_4_52_tur-sunwind.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/8_54_10_fivezero.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/8_8_54_mythsofavalon.com.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/9_16_30_tur-sunwind.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/9_21_33_tur-sunwind.ru.har" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/har/9_9_41_to-i-se.ru.har" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/engine.php" afterPath="$PROJECT_DIR$/php/engine.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/massurls.php" afterPath="$PROJECT_DIR$/php/massurls.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/webFeatures.php" afterPath="$PROJECT_DIR$/php/webFeatures.php" />
     </list>
     <ignored path="features.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -111,30 +30,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="engine.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/php/engine.php">
+      <file leaf-file-name="massurls.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/massurls.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="5" selection-start="300" selection-end="300" vertical-scroll-proportion="0.37444934">
+            <state line="1" column="0" selection-start="6" selection-end="122" vertical-scroll-proportion="-0.625">
               <folding>
-                <element signature="e#6#163#0" expanded="true" />
-                <element signature="e#272#5515#0" expanded="false" />
-                <element signature="e#5521#6513#0" expanded="false" />
-                <element signature="e#6519#6924#0" expanded="false" />
-                <element signature="e#6930#7356#0" expanded="false" />
-                <element signature="e#7362#7792#0" expanded="false" />
-                <element signature="e#7798#8316#0" expanded="false" />
-                <element signature="e#8322#8706#0" expanded="false" />
-                <element signature="e#8712#9004#0" expanded="false" />
-                <element signature="e#9010#9080#0" expanded="false" />
+                <element signature="e#6#122#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="massurls.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/massurls.php">
+      <file leaf-file-name="webFeatures.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/webFeatures.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="5" selection-start="1602" selection-end="1619" vertical-scroll-proportion="-24.0">
+            <state line="3" column="10" selection-start="54" selection-end="54" vertical-scroll-proportion="0.066079296">
               <folding />
             </state>
           </provider>
@@ -157,8 +67,9 @@
         <option value="$PROJECT_DIR$/js/detector.js" />
         <option value="$PROJECT_DIR$/php/features.php" />
         <option value="$PROJECT_DIR$/php/misc.php" />
-        <option value="$PROJECT_DIR$/php/massurls.php" />
         <option value="$PROJECT_DIR$/php/engine.php" />
+        <option value="$PROJECT_DIR$/php/massurls.php" />
+        <option value="$PROJECT_DIR$/php/webFeatures.php" />
       </list>
     </option>
   </component>
@@ -201,6 +112,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -229,7 +150,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="php" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -246,20 +167,6 @@
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chromesniffer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -268,10 +175,10 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
-    <property name="options.searchVisible" value="true" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -299,17 +206,17 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
+      <method>
+        <option name="PhingTarget" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
       <method>
         <option name="FtpUpload" enabled="false">
           <server_id />
           <server_name />
         </option>
-        <option name="PhingTarget" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
-      <method>
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
@@ -343,13 +250,6 @@
       </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method>
         <option name="FtpUpload" enabled="false">
@@ -358,6 +258,13 @@
         </option>
         <option name="PhingTarget" enabled="false" />
       </method>
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
     </configuration>
     <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
       <option name="VM_PARAMETERS" value="" />
@@ -417,7 +324,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14200398" sideWeight="0.5978112" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14399469" sideWeight="0.5978112" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40218878" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -510,26 +417,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/massurls.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="5" selection-start="1602" selection-end="1619" vertical-scroll-proportion="-24.0">
-          <folding />
+        <state line="1" column="0" selection-start="6" selection-end="122" vertical-scroll-proportion="-0.625">
+          <folding>
+            <element signature="e#6#122#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/engine.php">
+    <entry file="file://$PROJECT_DIR$/php/webFeatures.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="5" selection-start="300" selection-end="300" vertical-scroll-proportion="0.37444934">
-          <folding>
-            <element signature="e#6#163#0" expanded="true" />
-            <element signature="e#272#5515#0" expanded="false" />
-            <element signature="e#5521#6513#0" expanded="false" />
-            <element signature="e#6519#6924#0" expanded="false" />
-            <element signature="e#6930#7356#0" expanded="false" />
-            <element signature="e#7362#7792#0" expanded="false" />
-            <element signature="e#7798#8316#0" expanded="false" />
-            <element signature="e#8322#8706#0" expanded="false" />
-            <element signature="e#8712#9004#0" expanded="false" />
-            <element signature="e#9010#9080#0" expanded="false" />
-          </folding>
+        <state line="3" column="10" selection-start="54" selection-end="54" vertical-scroll-proportion="0.066079296">
+          <folding />
         </state>
       </provider>
     </entry>
